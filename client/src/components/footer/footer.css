@@ -1,0 +1,72 @@
+footer {
+  min-height: 200px;
+  max-height: fit-content;
+  background-color: #404040;
+  color: white;
+  margin: auto;
+  padding: 25px 0;
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1060px;
+  margin: auto auto 40px;
+}
+
+.footer h3 {
+  color: #0993ff;
+}
+
+.contactInfo {
+  margin: auto;
+  padding-left: 0;
+}
+
+.contactInfo li {
+  list-style: none;
+}
+
+.socialMediaContainer {
+  height: 100%;
+}
+
+.socialMediaTitle {
+  margin: 0;
+  text-align: center;
+}
+
+.socialMediaIcons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.socialMediaIcons i {
+  margin: 5px auto;
+}
+
+.fbLink:hover {
+  color: #4267b2;
+}
+
+.instaLink:hover {
+  color: #c13584;
+}
+
+.twitterLink:hover {
+  color: #1da1f2;
+}
+
+.createdBy {
+  text-align: center;
+  font-size: 12px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}

@@ -1,0 +1,90 @@
+.card {
+  width: 300px;
+  height: 450px;
+  min-height: fit-content;
+  border: 1px solid grey;
+  margin: 14px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all ease-in-out 200ms;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  border: 10px solid #1b65c0;
+  /* border-bottom: 45px solid #1b65c0; */
+  margin: 5px;
+  transition: all ease-in-out 200ms;
+  overflow: visible;
+}
+
+.imgDiv {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
+}
+
+.itemName {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  font-weight: 300;
+}
+
+.pricePerItem {
+  color: #f36523;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 5px;
+}
+
+.pricePerJoblot {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.partNumber {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.moreInfo,
+.addToCart {
+  background-color: #0993ff;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.addToCart {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.discount {
+  position: absolute;
+  right: 20px;
+  background-color: #0993ff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 100%;
+  color: white;
+}
+
+.discountNumber {
+  font-size: 28px;
+  font-weight: 600;
+}
+.percent {
+  font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.introContainer {
+  width: 80%;
+  max-width: 1060px;
+  margin: 30px auto 20px;
+}
+
+.introTagline {
+  font-weight: 600;
+}
